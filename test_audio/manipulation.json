@@ -1,0 +1,9 @@
+{
+    "file": "forgery.flac",
+    "manipulation": {
+        "type": "splicing",
+        "insert_start": 2.33,
+        "insert_end": 4.29,
+        "insert_position": 6.59
+    }
+}

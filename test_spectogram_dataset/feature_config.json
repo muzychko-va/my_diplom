@@ -1,0 +1,31 @@
+{
+  "sample_rate": 16000,
+  "window_duration": 4.0,
+  "hop_duration": 2.0,
+  "n_fft": 1024,
+  "hop_length": 256,
+  "n_mels": 128,
+  "fmin": 20,
+  "fmax": 8000,
+  "augment_copies": 1,
+  "augmentation": {
+    "enabled": true,
+    "noise_probability": 0.65,
+    "min_snr_db": 20.0,
+    "max_snr_db": 35.0,
+    "gain_probability": 0.5,
+    "min_gain_db": -3.0,
+    "max_gain_db": 3.0,
+    "polarity_probability": 0.2,
+    "resample_probability": 0.35,
+    "resample_rates": [
+      8000,
+      11025,
+      12000
+    ],
+    "mp3_simulation_probability": 0.25,
+    "mp3_min_cutoff_hz": 3400.0,
+    "mp3_max_cutoff_hz": 7200.0,
+    "mp3_quantization_bits": 10
+  }
+}
